@@ -49,7 +49,7 @@
 
      sudo yum install curl
 
-![image](https://github.com/user-attachments/assets/ee80618c-89c1-41cb-ab4d-7c2a0e541c83)
+![image](https://github.com/piroxide/crazyton/blob/main/6.png)
 
 
 
