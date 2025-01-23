@@ -1,15 +1,16 @@
+
 # Установить Linux Oracle на VirtualBox:
 
 
 Установить образ Linux
 
-
+![image](file:///C:/Users/user/Downloads/Telegram%20Desktop/1.png)
 
 Выделить 4 ядра
 
 Выделить 4096 МБ оперативной памяти
 
-
+![image](https://github.com/user-attachments/assets/6dcc2669-aefc-470c-a133-163215089fbf)
 
 
 # Установка docker
@@ -18,27 +19,27 @@
 
      sudo yum install wget
 
-
+![image](https://github.com/user-attachments/assets/cbbfb087-1846-4172-a621-7b14bd39c363)
 
 
 Скачиваем файл репозитория
 
      sudo wget -P /etc/yum.repos.d/ https://download.docker.com/linux/centos/docker-ce.repo
 
-
+![image](https://github.com/user-attachments/assets/be7a10f4-1e8a-4d21-a643-fcf2e7c66d69)
 
 
 Устанавливаем docker
 
      sudo yum install docker-ce docker-ce-cli containerd.io
 
-
+![image](https://github.com/user-attachments/assets/e27179c5-541a-441d-8788-ca82eeb0f43a)
 
 Запускаем его и разрешаем автозапуск
 
      sudo systemctl enable docker --now
 
-
+![image](https://github.com/user-attachments/assets/34ba26cc-bf26-4831-b155-545c72fc4ad6)
 
 
 
@@ -48,6 +49,7 @@
 
      sudo yum install curl
 
+![image](https://github.com/user-attachments/assets/ee80618c-89c1-41cb-ab4d-7c2a0e541c83)
 
 
 
@@ -60,7 +62,7 @@
 
      sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
-
+![image](https://github.com/user-attachments/assets/8618ffda-def1-46e0-9aa6-b31210af5f16)
 
 
 
@@ -72,7 +74,7 @@
 
      sudo docker-compose --version
 
-
+![image](https://github.com/user-attachments/assets/0aabdff0-918a-4eb5-9949-af97e8f15390)
 
 
 # Делаем grafana
@@ -81,7 +83,7 @@
 
      sudo yum install git
 
-
+![image](https://github.com/user-attachments/assets/eba26674-0dfe-4c2d-82b6-c789950ffe03)
 
 
 
@@ -89,7 +91,7 @@
 
      sudo git clone https://github.com/skl256/grafana_stack_for_docker.git
 
-
+![image](https://github.com/user-attachments/assets/0a6b8008-4b54-4b27-a3ef-754b24e57959)
 
 
 
@@ -124,7 +126,7 @@ Cоздаем папки двумя разными способами
 
      sudo mv grafana.yaml docker-compose.yaml
 
-
+![image](https://github.com/user-attachments/assets/894d0467-5354-48b7-ad3b-553326f4815f)
 
 
 Собрать докер (нужно запускать из папки где docker-compose.yaml)
@@ -133,7 +135,7 @@ Cоздаем папки двумя разными способами
 
 Опустить докер - sudo docker compose stop
 
-
+![image](https://github.com/user-attachments/assets/bec1cf3c-484b-44b9-8da0-6bc8131aeac9)
 
 
 
@@ -148,7 +150,7 @@ Cоздаем папки двумя разными способами
 
 Затем в docker-compose нужно вставить node-exporter и удалить ненужные файлы (но у нас уже вставлен готовый докер)
 
-
+![image](https://github.com/user-attachments/assets/14df36d8-22eb-42ea-b544-b1269c0a0393)
 
 выйти не сохраняясь из vim - esc -> :q!
 
@@ -162,13 +164,13 @@ Cоздаем папки двумя разными способами
 
      sudo vi prometheus.yaml
 
-
+![image](https://github.com/user-attachments/assets/df43bb29-972e-48ae-9224-6f8d222ebe0d)
 
 
 
 Далее нужно исправить targets: на exporter:9100
 
-
+![image](https://github.com/user-attachments/assets/d6dc7b39-175e-44e1-8fe3-e244cd85c825)
 
 
 # Делаем grafana на сайте
@@ -229,7 +231,7 @@ Cоздаем папки двумя разными способами
 
 После prometheus вставляем vmagent (но у нас уже вставлен готовый докер)
 
-
+![image](https://github.com/user-attachments/assets/ad84d1c3-5449-4dc3-a8fd-e8ce10a098b2)
 
 
 
@@ -247,7 +249,7 @@ Cоздаем папки двумя разными способами
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
-
+![image](https://github.com/user-attachments/assets/557aae50-2fcf-4334-be28-2c823d5bf964)
 
 Значение 0 меняем на любое другое
 
