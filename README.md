@@ -4,7 +4,7 @@
 
 Установить образ Linux
 
-![image](file:///C:/Users/user/Downloads/Telegram%20Desktop/1.png)
+![image](https://github.com/piroxide/crazyton/blob/main/1.png)
 
 Выделить 4 ядра
 
