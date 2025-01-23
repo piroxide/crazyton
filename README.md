@@ -83,7 +83,7 @@
 
      sudo yum install git
 
-![image](https://github.com/user-attachments/assets/eba26674-0dfe-4c2d-82b6-c789950ffe03)
+![image](https://github.com/piroxide/crazyton/blob/main/9.png)
 
 
 
