@@ -33,7 +33,7 @@
 
      sudo yum install docker-ce docker-ce-cli containerd.io
 
-![image](https://github.com/user-attachments/assets/e27179c5-541a-441d-8788-ca82eeb0f43a)
+![image](https://github.com/piroxide/crazyton/blob/main/4.png)
 
 Запускаем его и разрешаем автозапуск
 
