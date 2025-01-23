@@ -62,7 +62,7 @@
 
      sudo curl -L "https://github.com/docker/compose/releases/download/$COMVER/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
 
-![image](https://github.com/user-attachments/assets/8618ffda-def1-46e0-9aa6-b31210af5f16)
+![image](https://github.com/piroxide/crazyton/blob/main/7.png)
 
 
 
