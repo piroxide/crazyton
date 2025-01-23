@@ -126,7 +126,7 @@ Cоздаем папки двумя разными способами
 
      sudo mv grafana.yaml docker-compose.yaml
 
-![image](https://github.com/user-attachments/assets/894d0467-5354-48b7-ad3b-553326f4815f)
+![image](https://github.com/piroxide/crazyton/blob/main/11.png)
 
 
 Собрать докер (нужно запускать из папки где docker-compose.yaml)
