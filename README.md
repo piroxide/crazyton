@@ -164,7 +164,7 @@ Cоздаем папки двумя разными способами
 
      sudo vi prometheus.yaml
 
-![image](https://github.com/user-attachments/assets/df43bb29-972e-48ae-9224-6f8d222ebe0d)
+![image](https://github.com/piroxide/crazyton/blob/main/13.png)
 
 
 
