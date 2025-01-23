@@ -91,7 +91,7 @@
 
      sudo git clone https://github.com/skl256/grafana_stack_for_docker.git
 
-![image](https://github.com/user-attachments/assets/0a6b8008-4b54-4b27-a3ef-754b24e57959)
+![image](https://github.com/piroxide/crazyton/blob/main/10.png)
 
 
 
