@@ -135,7 +135,7 @@ Cоздаем папки двумя разными способами
 
 Опустить докер - sudo docker compose stop
 
-![image](https://github.com/user-attachments/assets/bec1cf3c-484b-44b9-8da0-6bc8131aeac9)
+![image](https://github.com/piroxide/crazyton/blob/main/12.png)
 
 
 
