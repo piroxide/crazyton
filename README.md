@@ -249,7 +249,7 @@ Cоздаем папки двумя разными способами
 
 • команда выводит информацию о типе и значении этой метрики в формате, который может быть использован системой мониторинга Prometheus.
 
-![image](https://github.com/user-attachments/assets/557aae50-2fcf-4334-be28-2c823d5bf964)
+![image](https://github.com/piroxide/crazyton/blob/main/14.png)
 
 Значение 0 меняем на любое другое
 
