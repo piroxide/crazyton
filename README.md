@@ -39,7 +39,7 @@
 
      sudo systemctl enable docker --now
 
-![image](https://github.com/user-attachments/assets/34ba26cc-bf26-4831-b155-545c72fc4ad6)
+![image](https://github.com/piroxide/crazyton/blob/main/5.png)
 
 
 
