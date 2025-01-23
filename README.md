@@ -19,7 +19,7 @@
 
      sudo yum install wget
 
-![image](https://github.com/user-attachments/assets/cbbfb087-1846-4172-a621-7b14bd39c363)
+![image]((https://github.com/piroxide/crazyton/blob/main/2.png)
 
 
 Скачиваем файл репозитория
