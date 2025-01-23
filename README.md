@@ -74,7 +74,7 @@
 
      sudo docker-compose --version
 
-![image](https://github.com/user-attachments/assets/0aabdff0-918a-4eb5-9949-af97e8f15390)
+![image](https://github.com/piroxide/crazyton/blob/main/8.png)
 
 
 # Делаем grafana
